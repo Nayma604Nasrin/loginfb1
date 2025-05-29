@@ -1,0 +1,61 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+header{
+    width: 100%;
+    height: 100vh;
+    background-color: #f0f2f5;
+    position: relative;
+}
+.login-fb{
+    height: 300px;
+    width: 400px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    background-color: white;
+    text-align: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    padding: 25px;
+}
+.mail{
+    width: 350px;
+    height: 35px;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+.pass{
+    width: 350px;
+    height: 35px;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.login-btn{
+    width: 300px;
+    height: 40px;
+    background-color: blue;
+    color: white;
+    border: none;
+    border-radius: 5px;
+}
+.forgot-password{
+    color: blue;
+    text-decoration: none;
+    padding: 5px 2px;
+    border-radius: 5px;
+}
+.create-account{
+    background-color: #42b72a;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 8px 15px;
+}
